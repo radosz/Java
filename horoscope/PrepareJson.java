@@ -37,7 +37,7 @@ public class PrepareJson extends MyHoroscope  {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		this.dailyHoroscope = getHoroscope(getZsign(),api).replace("\u0027","");
+		this.dailyHoroscope = getHoroscope(getZsign(),api);
 	}
 	
 	public HoroscopeSign getZsign() {
